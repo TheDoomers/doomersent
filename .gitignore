@@ -1,0 +1,133 @@
+# Unreal Engine
+# ================================
+
+# Build files
+Binaries/
+Build/
+DerivedDataCache/
+Intermediate/
+Saved/
+
+# Unreal project files
+.vs/
+.vscode/
+.idea/
+
+# Visual Studio
+*.suo
+*.user
+*.userosscache
+*.sln.docstates
+*.VC.db
+*.VC.VC.opendb
+
+# Rider
+*.sln.iml
+
+# Xcode
+*.xcworkspace
+*.xcodeproj
+xcuserdata/
+
+# OS generated files
+.DS_Store
+.DS_Store?
+._*
+.Spotlight-V100
+.Trashes
+ehthumbs.db
+Thumbs.db
+Desktop.ini
+
+# Compiled object files
+*.obj
+*.o
+*.a
+*.so
+*.dll
+*.lib
+*.dylib
+
+# Crash reports
+crashinfo-*.json
+
+# Logs
+*.log
+
+# Unreal generated files
+*.tmp
+*.temp
+
+# Automation / test artifacts
+TestResults/
+BuildReceipts/
+
+# Unreal Insights
+*.utrace
+*.ucache
+
+# Visual Studio Code
+.history/
+.vscode/
+
+# JetBrains Rider
+.idea/
+*.sln.iml
+
+# CLion
+cmake-build-*/
+
+# Unreal Engine launcher files
+*.target.cs.user
+*.build.cs.user
+
+# Ignore local configuration
+Config/DefaultEditorPerProjectUserSettings.ini
+Config/DefaultEditor.ini
+
+# Ignore generated project files
+*.opensdf
+*.sdf
+*.suo
+*.user
+*.userprefs
+
+# Ignore Unreal package files
+*.pak
+*.utoc
+*.ucas
+*.sig
+
+# Ignore local plugins build artifacts
+Plugins/*/Binaries/
+Plugins/*/Intermediate/
+
+# Keep plugin source/content
+!Plugins/*/Content/
+!Plugins/*/Source/
+
+# Ignore local project files
+*.generated.h
+
+# Ignore profiling data
+Profiling/
+ProfilingDebugging/
+
+# Ignore platform-specific generated files
+Platforms/*/Binaries/
+Platforms/*/Intermediate/
+
+# Unreal Engine Derived Data
+DerivedDataCache/
+
+# Python cache (if using Python tools)
+__pycache__/
+*.pyc
+
+# Node.js (if used by tools)
+node_modules/
+
+# Environment / secrets
+.env
+.env.*
+!.env.example
